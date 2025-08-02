@@ -20,7 +20,7 @@ body{
 /* fontes importées dans <svg> */
 svg{
 	width:100vw;
-	height:100vh;
+	height:100dvh;
 	min-height: 100dvh;
 }
 .texteCentrer{

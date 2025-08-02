@@ -15,13 +15,19 @@ body{
 	overflow: hidden;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1em;
-	height: 100%;
+	height: 100dvh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 /* fontes importées dans <svg> */
 svg{
-	width:100vw;
+	/* width:100vw;
 	height:100dvh;
-	min-height: 100dvh;
+	min-height: 100dvh; */
+	width: 100vw;
+	height: auto;
+	max-height: 100%;
 }
 .texteCentrer{
 	dominant-baseline: middle;

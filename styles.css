@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+:root{
+	--couleur-fond: rgb(30,32,45);
+	--couleur-bleu1: rgb(96,234,242);
+	--couleur-bleu2: rgb(83,130,248);
+	--couleur-bleu3: rgb(91,80,197);
+}
+body{
+	background-color: var(--couleur-fond);
+	overflow: hidden;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+}
+/* fontes importées dans <svg> */
+svg{
+	width:100vw;
+	height:100vh;
+}
+.texteCentrer{
+	dominant-baseline: middle;
+	text-anchor: middle;
+}
+.cercleFond{
+	stroke:rgba(0,0,0,0.4);
+}
+.nbreHeure{
+	font-size: 0.7em;
+	fill:rgba(255,255,255,0.4);
+}
+#arcHeures{
+	stroke:var(--couleur-bleu1);
+}
+#arcMinutes{
+	stroke:var(--couleur-bleu2);
+}
+#arcSecondes{
+	stroke:var(--couleur-bleu3);
+}
+.trait{
+	stroke:none;
+}
+.cercleIndication{
+	fill:white;
+}
+.texteDate{
+	font-size: 1.3em;
+	fill:white;
+}
+.texteGris{
+	font-size: 0.8em;
+	fill:rgba(255,255,255,0.4);
+}

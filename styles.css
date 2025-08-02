@@ -12,7 +12,7 @@
 }
 html, body{
 	background-color: var(--couleur-fond);
-	overflow: hidden;
+	/* overflow: hidden; */
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1em;
 	width: 100vw;

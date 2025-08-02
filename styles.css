@@ -10,19 +10,20 @@
 	--couleur-bleu2: rgb(83,130,248);
 	--couleur-bleu3: rgb(91,80,197);
 }
-body{
+html, body{
 	background-color: var(--couleur-fond);
 	overflow: hidden;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1em;
-	height: 100dvh;
+	width: 100vw;
+    height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 /* fontes importées dans <svg> */
 svg{
-	width: 100vw;
+	width: 100%;
 	/* height:100dvh;
 	min-height: 100dvh; */
 	height: auto;

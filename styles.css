@@ -15,11 +15,13 @@ body{
 	overflow: hidden;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1em;
+	height: 100%;
 }
 /* fontes importées dans <svg> */
 svg{
 	width:100vw;
 	height:100vh;
+	min-height: 100dvh;
 }
 .texteCentrer{
 	dominant-baseline: middle;
